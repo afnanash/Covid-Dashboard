@@ -7,23 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		303FF9D9279B2741007FD5CD /* CovidDashboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303FF9D8279B2741007FD5CD /* CovidDashboardController.swift */; };
+		3064864A279A37DB000E47B3 /* CovidNewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30648649279A37DB000E47B3 /* CovidNewsCell.swift */; };
+		3064864D279AEC2A000E47B3 /* FilterCovidDatesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3064864C279AEC2A000E47B3 /* FilterCovidDatesController.swift */; };
 		307322B327999C0F00F06402 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307322B227999C0F00F06402 /* AppDelegate.swift */; };
 		307322B527999C0F00F06402 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307322B427999C0F00F06402 /* SceneDelegate.swift */; };
-		307322B727999C0F00F06402 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307322B627999C0F00F06402 /* ViewController.swift */; };
-		307322BA27999C0F00F06402 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 307322B827999C0F00F06402 /* Main.storyboard */; };
+		307322BA27999C0F00F06402 /* CovidDashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 307322B827999C0F00F06402 /* CovidDashboard.storyboard */; };
 		307322BC27999C1200F06402 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 307322BB27999C1200F06402 /* Assets.xcassets */; };
 		307322BF27999C1200F06402 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 307322BD27999C1200F06402 /* LaunchScreen.storyboard */; };
+		307322D42799C51E00F06402 /* TrackingCovidCasesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307322D32799C51E00F06402 /* TrackingCovidCasesModel.swift */; };
+		307322D82799D0AE00F06402 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307322D72799D0AE00F06402 /* NetworkManager.swift */; };
+		307322DA2799D0BE00F06402 /* CovidNewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307322D92799D0BE00F06402 /* CovidNewsModel.swift */; };
+		307322DC2799DF1300F06402 /* CountryInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307322DB2799DF1300F06402 /* CountryInfoModel.swift */; };
+		307322E0279A10AF00F06402 /* LocationsDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307322DF279A10AF00F06402 /* LocationsDataModel.swift */; };
+		307322E4279A347200F06402 /* CovidNewsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307322E3279A347200F06402 /* CovidNewsController.swift */; };
+		30BD174A279B157300E805A7 /* CovidNewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30BD1749279B157300E805A7 /* CovidNewsCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		303FF9D8279B2741007FD5CD /* CovidDashboardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidDashboardController.swift; sourceTree = "<group>"; };
+		30648649279A37DB000E47B3 /* CovidNewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidNewsCell.swift; sourceTree = "<group>"; };
+		3064864C279AEC2A000E47B3 /* FilterCovidDatesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterCovidDatesController.swift; sourceTree = "<group>"; };
 		307322AF27999C0F00F06402 /* Covid Dashboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Covid Dashboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		307322B227999C0F00F06402 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		307322B427999C0F00F06402 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		307322B627999C0F00F06402 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		307322B927999C0F00F06402 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		307322B927999C0F00F06402 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/CovidDashboard.storyboard; sourceTree = "<group>"; };
 		307322BB27999C1200F06402 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		307322BE27999C1200F06402 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		307322C027999C1200F06402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		307322D32799C51E00F06402 /* TrackingCovidCasesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingCovidCasesModel.swift; sourceTree = "<group>"; };
+		307322D72799D0AE00F06402 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		307322D92799D0BE00F06402 /* CovidNewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidNewsModel.swift; sourceTree = "<group>"; };
+		307322DB2799DF1300F06402 /* CountryInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryInfoModel.swift; sourceTree = "<group>"; };
+		307322DF279A10AF00F06402 /* LocationsDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsDataModel.swift; sourceTree = "<group>"; };
+		307322E3279A347200F06402 /* CovidNewsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidNewsController.swift; sourceTree = "<group>"; };
+		30BD1749279B157300E805A7 /* CovidNewsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CovidNewsCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +55,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3064864B279AEC12000E47B3 /* Filter Covid Dates */ = {
+			isa = PBXGroup;
+			children = (
+				3064864C279AEC2A000E47B3 /* FilterCovidDatesController.swift */,
+			);
+			path = "Filter Covid Dates";
+			sourceTree = "<group>";
+		};
 		307322A627999C0F00F06402 = {
 			isa = PBXGroup;
 			children = (
@@ -58,13 +84,54 @@
 			children = (
 				307322B227999C0F00F06402 /* AppDelegate.swift */,
 				307322B427999C0F00F06402 /* SceneDelegate.swift */,
-				307322B627999C0F00F06402 /* ViewController.swift */,
-				307322B827999C0F00F06402 /* Main.storyboard */,
+				303FF9D8279B2741007FD5CD /* CovidDashboardController.swift */,
+				307322B827999C0F00F06402 /* CovidDashboard.storyboard */,
+				3064864B279AEC12000E47B3 /* Filter Covid Dates */,
+				307322E5279A347700F06402 /* Covid News */,
+				307322D62799D09800F06402 /* Network Manager */,
 				307322BB27999C1200F06402 /* Assets.xcassets */,
 				307322BD27999C1200F06402 /* LaunchScreen.storyboard */,
 				307322C027999C1200F06402 /* Info.plist */,
 			);
 			path = "Covid Dashboard";
+			sourceTree = "<group>";
+		};
+		307322D52799C52100F06402 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				307322D92799D0BE00F06402 /* CovidNewsModel.swift */,
+				307322D32799C51E00F06402 /* TrackingCovidCasesModel.swift */,
+				307322DB2799DF1300F06402 /* CountryInfoModel.swift */,
+				307322DF279A10AF00F06402 /* LocationsDataModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		307322D62799D09800F06402 /* Network Manager */ = {
+			isa = PBXGroup;
+			children = (
+				307322D72799D0AE00F06402 /* NetworkManager.swift */,
+				307322D52799C52100F06402 /* Models */,
+			);
+			path = "Network Manager";
+			sourceTree = "<group>";
+		};
+		307322E5279A347700F06402 /* Covid News */ = {
+			isa = PBXGroup;
+			children = (
+				307322E3279A347200F06402 /* CovidNewsController.swift */,
+				30BD1748279B156700E805A7 /* Cell */,
+			);
+			path = "Covid News";
+			sourceTree = "<group>";
+		};
+		30BD1748279B156700E805A7 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				30648649279A37DB000E47B3 /* CovidNewsCell.swift */,
+				30BD1749279B157300E805A7 /* CovidNewsCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +192,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30BD174A279B157300E805A7 /* CovidNewsCell.xib in Resources */,
 				307322BF27999C1200F06402 /* LaunchScreen.storyboard in Resources */,
 				307322BC27999C1200F06402 /* Assets.xcassets in Resources */,
-				307322BA27999C0F00F06402 /* Main.storyboard in Resources */,
+				307322BA27999C0F00F06402 /* CovidDashboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,21 +206,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				307322B727999C0F00F06402 /* ViewController.swift in Sources */,
+				307322DC2799DF1300F06402 /* CountryInfoModel.swift in Sources */,
+				307322D82799D0AE00F06402 /* NetworkManager.swift in Sources */,
+				307322DA2799D0BE00F06402 /* CovidNewsModel.swift in Sources */,
+				3064864A279A37DB000E47B3 /* CovidNewsCell.swift in Sources */,
+				307322D42799C51E00F06402 /* TrackingCovidCasesModel.swift in Sources */,
 				307322B327999C0F00F06402 /* AppDelegate.swift in Sources */,
+				307322E4279A347200F06402 /* CovidNewsController.swift in Sources */,
+				303FF9D9279B2741007FD5CD /* CovidDashboardController.swift in Sources */,
+				307322E0279A10AF00F06402 /* LocationsDataModel.swift in Sources */,
 				307322B527999C0F00F06402 /* SceneDelegate.swift in Sources */,
+				3064864D279AEC2A000E47B3 /* FilterCovidDatesController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		307322B827999C0F00F06402 /* Main.storyboard */ = {
+		307322B827999C0F00F06402 /* CovidDashboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				307322B927999C0F00F06402 /* Base */,
 			);
-			name = Main.storyboard;
+			name = CovidDashboard.storyboard;
 			sourceTree = "<group>";
 		};
 		307322BD27999C1200F06402 /* LaunchScreen.storyboard */ = {
@@ -287,13 +363,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Covid Dashboard/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Covid19 Dashboard";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please Allow access to device’s location";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = CovidDashboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -314,13 +394,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Covid Dashboard/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Covid19 Dashboard";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please Allow access to device’s location";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = CovidDashboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
